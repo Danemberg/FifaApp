@@ -8,7 +8,7 @@ const ClubsList = ({route}) => {
     const[modalVisible, setModalVisible] = useState(false);
     const [selectedClub, setSelectedClub] = useState('');
     // abre o modal de informação
-    const openInfo = ({club})=> {
+    const openInfo = (club)=> {
         setSelectedClub(club);
         setModalVisible(true);
     }
@@ -54,22 +54,25 @@ const ClubsList = ({route}) => {
     
     return (
         
-      <View style={styles.container}>
+        <View style={styles.container}>
         <View style={styles.title}>
-            <Text style={styles.text_title}> Clubs of {region}</Text>
+            <Text style={styles.text_title}>Clubs of {region}</Text>
         </View>
         <View style={styles.list_clubs}>
-            {clubs.map(({ name, logo }, index)  => (
-                <View style={styles.clubItemContainer}>
-                    <TouchableOpacity onPress={() => openInfo('Barcelona')}><Text key={index} style={styles.text_clubs}>{name}</Text></TouchableOpacity>
-                    <Image source={logo} style={styles.clubLogo} />
-                </View>
-            ))}   
+            {clubs.map(({ name, logo }, index) => (
+                <TouchableOpacity key={index} onPress={() => openInfo('Barcelona')}>
+                    <View style={styles.clubItemContainer}>
+                        <Text style={styles.text_clubs}>{name}</Text>
+                        <Image source={logo} style={styles.clubLogo} />
+                    </View>
+                </TouchableOpacity>
+            ))}
         </View>
         <Modal visible={modalVisible} animationType='fade' transparent={true}>
-            <InfoClubs club={selectedClub} closeInfo={() => setModalVisible(false)}/>
+            <InfoClubs club={selectedClub} closeInfo={() => setModalVisible(false)} />
         </Modal>
-      </View>
+    </View>
+    
     );
   };
 
