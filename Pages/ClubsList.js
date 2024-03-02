@@ -60,7 +60,7 @@ const ClubsList = ({route}) => {
         </View>
         <View style={styles.list_clubs}>
             {clubs.map(({ name, logo }, index) => (
-                <TouchableOpacity key={index} onPress={() => openInfo('Barcelona')}>
+                <TouchableOpacity key={index} onPress={() => openInfo(name)}>
                     <View style={styles.clubItemContainer}>
                         <Text style={styles.text_clubs}>{name}</Text>
                         <Image source={logo} style={styles.clubLogo} />
@@ -83,7 +83,6 @@ const styles = StyleSheet.create({
          },
         title:{
           backgroundColor: '#191970',
-          flexDirection: 'row', 
           alignItems: 'center', 
           },
         text_title: {

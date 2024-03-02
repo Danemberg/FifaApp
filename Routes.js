@@ -4,7 +4,6 @@ import { NavigationContainer } from '@react-navigation/native';
 
 import Home from './Pages/Home';
 import ClubsList from './Pages/ClubsList';
-import TeamPage from './Pages/TeamPage';
 
 const Stack = createStackNavigator();
 
@@ -34,17 +33,6 @@ export function Routes (){
                 fontWeight: 'bold',
               },
             }}/>
-        <Stack.Screen name="teamPage" component={TeamPage}
-            options={{
-              title: 'FIFA',
-              headerStyle: {
-                backgroundColor: '#A9A9A9'
-              },
-              headerTintColor: '#B8860B',
-              headerTitleStyle: {
-                fontWeight: 'bold',
-              },
-            }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
