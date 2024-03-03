@@ -17,7 +17,7 @@ const Home = ({ navigation }) => {
                 <Text style={styles.touchableText}>Europe</Text>
               </TouchableOpacity>
               <View style={styles.column_image}>
-                <Image source={require('../assets/UEFA_Champions_League.png')} style={styles.image}/>
+                <Image source={require('../assets/champions.png')} style={styles.image}/>
               </View>
             </View>
             <View style={styles.row_style}>

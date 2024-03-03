@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/static/js/main.9e02fe2f.js",
+    "static/js/174.bbea6b87.js": "/static/js/174.bbea6b87.js",
+    "static/media/Liverpool.png": "/static/media/Liverpool.bc9dd17068d14b830ea7.png",
+    "static/media/AFC.png": "/static/media/AFC.670a88cca59f080b2653.png",
+    "static/media/CABJ.png": "/static/media/CABJ.cac9baec8ba9fb150aa7.png",
+    "static/media/al-nassr.png": "/static/media/al-nassr.d3618948a8f8e3eed8bc.png",
+    "static/media/Libertadores.png": "/static/media/Libertadores.56c87e5a27ba7df6e937.png",
+    "static/media/Mazembe.png": "/static/media/Mazembe.49d0b1aa8722a7d5ad51.png",
+    "static/media/Wydad.png": "/static/media/Wydad.d0574b54f503d4e57b4a.png",
+    "static/media/fla.png": "/static/media/fla.bf931a5dd3125ff8874e.png",
+    "static/media/barcelona.png": "/static/media/barcelona.3bcb1183a39d082229d1.png",
+    "static/media/al-hilal.png": "/static/media/al-hilal.0d6b7fbc26658bf1ad21.png",
+    "static/media/urawa.png": "/static/media/urawa.345a85084f7b60118eca.png",
+    "static/media/Real-Madrid.png": "/static/media/Real-Madrid.3816f04778478cb7fcc6.png",
+    "static/media/palmeiras.png": "/static/media/palmeiras.b893aed6cc5212077a0c.png",
+    "static/media/kashima-antlers.png": "/static/media/kashima-antlers.908ad59534c0933da8fe.png",
+    "static/media/river.png": "/static/media/river.7c4a8fea1f5bcd088442.png",
+    "static/media/Raja.png": "/static/media/Raja.4321f7dfcf3ac6ed68df.png",
+    "static/media/al-ahly.png": "/static/media/al-ahly.2c124834202c88824d6f.png",
+    "static/media/CAF.png": "/static/media/CAF.75853c47b2d174591f07.png",
+    "static/media/champions.png": "/static/media/champions.1fa930393451fc3aabf2.png",
+    "static/media/inter.png": "/static/media/inter.44dc170edb7fa6af14ba.png",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "favicon-32.png": "/favicon-32.png",
+    "favicon-16.png": "/favicon-16.png",
+    "serve.json": "/serve.json",
+    "manifest.json": "/manifest.json",
+    "main.9e02fe2f.js.map": "/static/js/main.9e02fe2f.js.map",
+    "174.bbea6b87.js.map": "/static/js/174.bbea6b87.js.map"
+  },
+  "entrypoints": [
+    "static/js/174.bbea6b87.js",
+    "static/js/main.9e02fe2f.js"
+  ]
+}
